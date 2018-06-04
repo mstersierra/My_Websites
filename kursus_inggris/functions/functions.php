@@ -27,7 +27,7 @@ function adduser($data){
 	// query insert data
 	$query = "INSERT INTO login
 				VALUES
-				($username','$name','$email','$password','$status')";
+				('$username','$password','$name','$email','$status')";
 	mysqli_query($conn, $query);
 
 	return mysqli_affected_rows($conn);
