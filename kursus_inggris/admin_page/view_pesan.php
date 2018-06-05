@@ -98,7 +98,7 @@
                     </div>
                     
                     <div class="form-group">
-                        <label class="badge badge-warning" for="isi">By :</label>
+                        <label class="badge badge-warning" for="isi">Content :</label>
                         <textarea class="form-control" readonly="" name="isi" style="background-color: white;"><?= $pesan["pesan"]; ?></textarea>
                     </div>
                    
